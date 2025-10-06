@@ -1,0 +1,59 @@
+{
+  "scripts": {
+    "release": "standard-version"
+  },
+  "standard-version": {
+    "types": [
+      {
+        "type": "feat",
+        "section": "✨ Features"
+      },
+      {
+        "type": "fix",
+        "section": "🐞 Fixes"
+      },
+      {
+        "type": "docs",
+        "section": "📚 Documentation"
+      },
+      {
+        "type": "style",
+        "section": "💅 Styling"
+      },
+      {
+        "type": "refactor",
+        "section": "🧠 Refactoring"
+      },
+      {
+        "type": "perf",
+        "section": "⚡ Performance"
+      },
+      {
+        "type": "test",
+        "section": "🧪 Tests"
+      },
+      {
+        "type": "chore",
+        "section": "🔧 Chores"
+      }
+    ]
+  },
+  "name": "slideapi",
+  "description": "<h1 align=\"center\">🎞️ slideapi.js</h1> <p align=\"center\">Slideshow declarativo, modular y extensible para <code>general.js</code></p>",
+  "version": "1.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturo21/slideapi.git"
+  },
+  "keywords": [
+    "mit",
+    "slideapi"
+  ],
+  "author": "Arturo Vasquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arturo21/slideapi/issues"
+  },
+  "homepage": "https://github.com/arturo21/slideapi#readme"
+}
