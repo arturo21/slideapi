@@ -1,0 +1,38 @@
+.slide-frame {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease;
+}
+
+.fade {
+  animation: fadeIn 0.5s ease;
+}
+
+.slide {
+  animation: slideLeft 0.5s ease;
+}
+
+.slide-caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+#paginador button.active {
+  background: #007bff;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideLeft {
+  from { transform: translateX(100%); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
+}
